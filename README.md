@@ -2,7 +2,7 @@
 Material from the EBAC course:
 - HTML<5>;
 - CSS Foundations;
-- CSS Advanced;
+- CSS II;
 
 ## Incoming:
 - Javascript Foundations;
