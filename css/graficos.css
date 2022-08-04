@@ -1,0 +1,16 @@
+#grafico-01 {
+    filter: drop-shadow(10px 10px 10px #333);
+    text-align: center;
+    width: 100%;
+}
+
+/* Filtros */
+.filtro {
+    filter: grayscale(100%);
+    width: 100%;
+    border-radius: 50%;
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+}
