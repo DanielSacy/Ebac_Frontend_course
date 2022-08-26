@@ -117,11 +117,34 @@ section article {
   width: 50%;
 }
 
+.secondary {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.secondary nav {
+  display: block;
+  float: left;
+  width: 15%;
+  padding-block-end: 100%;
+}
+
+.secondary article {
+  display: block;
+  float: left;
+  width: 70%;
+}
+
 #tenhoInteresse {
-  /* display: block;
-  float: left; */
-  /* width: 70%;
-  margin: 0 auto; */
+  display: block;
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cog-form__content {
+  background-color: aquamarine !important;
 }
 
 footer {
@@ -148,6 +171,53 @@ footer h3 {
   visibility: hidden !important;
 }
 
-.cog-branding cog-branding--minimal {
-  visibility: hidden !important;
+/* MOBILE MEDIA */
+
+@media (max-width: 769px){
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+	section nav {
+	  width: 15%;
+    /* height: fit-content; */
+    /* padding: 0; */
+    margin: 0;
+	}
+  /* .secondary nav {
+    visibility: hidden;
+  } */
+	section article {
+	  width: 70%;
+	}
+  #tenhoInteresse {
+    width: 100%;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 426px){
+  .main,
+  section,
+  article {
+    width: 100%;
+  }
+  .main article {
+    margin-right: 0;
+  }
+  #logoPresto {
+    width: 70%;
+    padding: 0 50px;
+  }
+  .main nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .secondary nav {
+    visibility: hidden;
+  }
+  header {
+    height: auto;
+  }
 }
