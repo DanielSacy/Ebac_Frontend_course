@@ -117,6 +117,13 @@ section article {
   width: 50%;
 }
 
+#tenhoInteresse {
+  /* display: block;
+  float: left; */
+  /* width: 70%;
+  margin: 0 auto; */
+}
+
 footer {
   display: block;
   float: left;
@@ -133,4 +140,14 @@ footer h3 {
   color:#fff;
   padding-top: 5px;
   font-size: 80%;
+}
+
+/* Hidding form characteristics  */
+
+.cog-abuse {
+  visibility: hidden !important;
+}
+
+.cog-branding cog-branding--minimal {
+  visibility: hidden !important;
 }
